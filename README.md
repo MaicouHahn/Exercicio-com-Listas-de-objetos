@@ -16,3 +16,7 @@ Lembre-se de aplicar a técnica de encapsulamento para não
 permitir que o salário possa ser mudado livremente. Um 
 salário só pode ser aumentado com base em uma operação 
 de aumento por porcentagem dada.
+
+Saida do programa com os testes caso ID ja tenha sido usado no momento do cadastro, e teste caso ID nao exista no momento de dar o aumento do salario
+
+![image](https://user-images.githubusercontent.com/111459606/202766057-1b230ecf-da53-47e3-896b-972d12ccbb77.png)
