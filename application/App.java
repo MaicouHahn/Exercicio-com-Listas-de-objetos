@@ -16,7 +16,7 @@ public class App {
 		Scanner scan = new Scanner(System.in);
 		Scanner scanName = new Scanner(System.in);
 
-		System.out.println("How many employees wil be registered?");
+		System.out.println("How many employees will be registered?");
 		int numEmployees = scan.nextInt();// variable that controls the max number of objects on the list
 
 		for (int i = 0; i < numEmployees; i++) {
@@ -46,7 +46,7 @@ public class App {
 
 		while (hasId(id, employee) != true) {// check if the object id is equal to the id read by the scanner
 
-			System.out.println("This ID does not exist, enter a valid ID");
+			System.out.print("\nThis ID does not exist, enter a valid ID");
 			id = scan.nextInt();
 		}
 
@@ -60,8 +60,9 @@ public class App {
 			}
 		}
 
+		System.out.println("List of employees: ");
 		for (Employee e : employee) {
-
+			
 			System.out.println(e);
 		}
 		
